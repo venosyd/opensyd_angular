@@ -1,0 +1,9 @@
+<div *ngIf="visible" class="openux-overlay-background">
+    <div class="choose-dialog">
+        <div class="wrapper">
+            <p (click)="action(item); hide()" *ngFor="let item of items">{{item}}</p>
+        </div>
+
+        <button (click)="no()">CANCELAR</button>
+    </div>
+</div>

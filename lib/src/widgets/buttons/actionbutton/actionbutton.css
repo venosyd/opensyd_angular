@@ -1,0 +1,105 @@
+.action-button {
+    height: 36px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 0 12px 0 0;
+    transition: all .1s ease-in;
+}
+
+.action-button img {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 12px;
+    float: left;
+}
+
+.action-button p {
+    display: block;
+    float: left;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: .9em;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+    margin: 9px 0 0 0;
+}
+
+.action-button-align-center {
+    text-align: center !important;
+    width: 100%;
+}
+
+.action-button-left {
+    float: left;
+}
+
+.action-button-right {
+    float: right;
+}
+
+.action-button-green {
+    background: #338000;
+}
+
+.action-button-green:hover {
+    background: #4ba510;
+}
+
+.action-button-red {
+    background: #ff2a2a;
+}
+
+.action-button-red:hover {
+    background: #e87777;
+}
+
+.action-button-yellow {
+    background: #ffbc2a;
+}
+
+.action-button-yellow:hover {
+    background: #ffd16e;
+}
+
+.action-button-orange {
+    background: #fc8f00;
+}
+
+.action-button-orange:hover {
+    background: #fdb14d;
+}
+
+.action-button-purple {
+    background: #6000ce;
+}
+
+.action-button-purple:hover {
+    background: #8923fd;
+}
+
+.action-button-pink {
+    background: rgb(212, 29, 142);
+}
+
+.action-button-pink:hover {
+    background: rgb(231, 86, 176);
+}
+
+.action-button-blue {
+    background: #1CB5E0;
+}
+
+.action-button-blue:hover {
+    background: rgb(125, 205, 228);
+}
+
+.action-button-gray {
+    background: rgb(102, 102, 102);
+}
+
+.action-button-gray:hover {
+    background: rgb(148, 148, 148);
+}

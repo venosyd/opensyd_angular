@@ -1,0 +1,7 @@
+<div *ngIf="visible" class="openux-overlay-background">
+    <div class="choice-dialog">
+        <p>{{message}}</p>
+        <button id="choice-dialog-ok" (click)="ok()">SIM</button>
+        <button id="choice-dialog-cancel" (click)="no()">NÃO</button>
+    </div>
+</div>

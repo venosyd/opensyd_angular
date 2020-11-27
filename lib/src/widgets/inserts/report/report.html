@@ -1,0 +1,8 @@
+<div *ngIf="visible" class="openux-overlay-background">
+    <div class="report-dialog">
+        <input [placeholder]="hint" [(ngModel)]="credential"/>
+        <textarea [(ngModel)]="description"></textarea>
+        <button id="report-dialog-ok" (click)="ok()">OK</button>
+        <button id="report-dialog-cancel" (click)="hide()">CANCELAR</button>
+    </div>
+</div>

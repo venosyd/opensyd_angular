@@ -1,0 +1,63 @@
+.openux-bg {
+    background: linear-gradient(to top, rgba(17, 235, 235, 0.9), rgba(32, 227, 178, 0.9), rgba(41, 255, 198, 0.9));
+}
+
+.openux-dash-bg {
+    background: linear-gradient(to right, #005c97, #363795);
+}
+
+.mastercard {
+    background: linear-gradient(to right, #f46b45, #eea849);
+}
+
+.timber {
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+.midnight {
+    background: linear-gradient(to right, #232526, #414345)
+}
+
+.bloodred {
+    background: linear-gradient(to right, #f85032, #e73827);
+}
+
+.blush {
+    background: linear-gradient(to right, #b24592, #f15f79);
+}
+
+.crimsontide {
+    background: linear-gradient(to right, #642b73, #c6426e);
+}
+
+.rose {
+    background: linear-gradient(to right, #bc4e9c, #f80759);
+}
+
+.alive {
+    background: linear-gradient(to right, #cb356b, #bd3f32);
+}
+
+.orangefun {
+    background: linear-gradient(to right, #fc4a1a, #f7b733);
+}
+
+.soundcloud {
+    background: linear-gradient(to right, #fe8c00, #f83600);
+}
+
+.lush {
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+}
+
+.stripe {
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+
+.scooter {
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+}
+
+.reef {
+    background: linear-gradient(to right, #00d2ff, #3a7bd5);
+}

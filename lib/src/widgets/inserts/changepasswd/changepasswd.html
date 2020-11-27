@@ -1,0 +1,11 @@
+<openux-dialog #dialog></openux-dialog>
+
+<div *ngIf="visible" class="openux-overlay-background">
+    <div class="changepasswd-dialog">
+        <input type="password" [(ngModel)]="oldpasswd" placeholder="Senha atual"/>
+        <input type="password" [(ngModel)]="newpasswd" placeholder="Nova senha"/>
+        <input type="password" [(ngModel)]="confirmnewpasswd" placeholder="Confirmar nova senha"/>
+        <button id="changepasswd-dialog-ok" (click)="ok()">OK</button>
+        <button id="changepasswd-dialog-cancel" (click)="hide()">CANCELAR</button>
+    </div>
+</div>

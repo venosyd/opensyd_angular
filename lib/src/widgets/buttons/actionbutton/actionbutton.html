@@ -1,0 +1,21 @@
+<div
+  *ngIf="visible"
+  (click)="action()"
+  class="action-button"
+  [style.width]="size"
+  [class.action-button-blue]="color == 'blue'"
+  [class.action-button-yellow]="color == 'yellow'"
+  [class.action-button-gray]="color == 'gray'"
+  [class.action-button-red]="color == 'red'"
+  [class.action-button-orange]="color == 'orange'"
+  [class.action-button-purple]="color == 'purple'"
+  [class.action-button-green]="color == 'green'"
+  [class.action-button-pink]="color == 'pink'"
+  [class.action-button-left]="position == 'lefØt'"
+  [class.action-button-right]="position == 'right'"
+>
+  <img *ngIf="!onlytext" [src]="icon" />
+  <p *ngIf="!onlyicon" [class.action-button-align-center]="onlytext">
+    {{ text }}
+  </p>
+</div>

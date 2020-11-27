@@ -1,0 +1,44 @@
+.dialog {
+    position: absolute;
+    height: 180px;
+    width: 325px;
+    top: calc((100vh - 180px) / 2);
+    left: calc((100vw - 325px) / 2);
+    z-index: 1000001;
+    padding: 24px;
+    background-color: white;
+    border-radius: 16px;
+}
+
+.dialog p {
+    width: 100%;
+    font-size: 1.4em;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.dialog button {
+    width: 100px;
+    height: unset !important;
+    display: block;
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    color: #777;
+    bottom: 16px;
+    left: calc((100% - 100px) / 2);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+.dialog button:hover {
+    color: #3a7bd5;
+}

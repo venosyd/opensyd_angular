@@ -1,0 +1,42 @@
+.mini-loading {
+    display: inline-block;
+    position: relative;
+    top: calc((100% - 64px) / 2);
+    left: calc((100% - 64px) / 2);
+    width: 64px;
+    height: 64px;
+}
+
+.mini-loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    margin: 6px;
+    border: 6px solid rgb(0, 174, 255);
+    border-radius: 50%;
+    animation: mini-loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: rgb(118, 212, 255) transparent transparent transparent;
+}
+
+.mini-loading div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+
+.mini-loading div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+
+.mini-loading div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+
+@keyframes mini-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

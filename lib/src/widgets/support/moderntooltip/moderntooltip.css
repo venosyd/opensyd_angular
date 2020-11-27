@@ -1,0 +1,16 @@
+.openux-tooltip {
+    position: fixed;
+    background: rgba(0, 0, 0, .8);
+    z-index: 1000000000000;
+}
+
+.openux-tooltip p {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: .8em;
+    color: white;
+    text-align: center;
+}
