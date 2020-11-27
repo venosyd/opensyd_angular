@@ -10,7 +10,7 @@ dependencies:
   angular: 
   angular_forms: 
   opensyd_dart:
-    path: ../opensyd_dart
+    git: git@github.com:venosyd/opensyd_dart.git
 
 dev_dependencies:
   build_runner: 
