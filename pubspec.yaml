@@ -1,11 +1,11 @@
 name: "opensyd_angular"
-version: 3.0.0
+version: 3.0.1
 description: Opensyd AngularDart libs
 author: Sergio Lisan <sels@venosyd.com>
 publish_to: "none"
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: ">=2.10.0 <3.0.0"
 
 dependencies:
   angular: 
